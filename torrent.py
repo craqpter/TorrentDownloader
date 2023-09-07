@@ -181,12 +181,12 @@ class TorrentDownloader:
         self.root.destroy()
         
     def save_downloaded_torrent(self, name, date):
-        with open("downloaded_torrents.txt", "a") as f:
+        with open("res/downloaded_torrents.txt", "a") as f:
             f.write(f"\nName: {name}, Date: {date}")
         
     def load_downloaded_torrents(self):
         try:
-            with open("downloaded_torrents.txt", "r") as f:
+            with open("res/downloaded_torrents.txt", "r") as f:
                 for line in f:
                     self.torrent_listbox.insert(tk.END, line)
         except FileNotFoundError:
@@ -198,7 +198,7 @@ class TorrentDownloader:
 
         try:
             # Reload the list from the file
-            with open("downloaded_torrents.txt", "r") as f:
+            with open("res/downloaded_torrents.txt", "r") as f:
                 for line in f:
                     self.torrent_listbox.insert(tk.END, line)
         except FileNotFoundError:
