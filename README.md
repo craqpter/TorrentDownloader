@@ -17,4 +17,6 @@ pip install -r requirements.txt
 ```
 
 ## Usage (Windows and Linux)
->python torrent.py
+```
+python torrent.py
+```
