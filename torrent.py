@@ -75,7 +75,7 @@ class TorrentDownloader:
         center_frame.pack(expand=True, fill="both")
 
         # Load and display the icon
-        icon = PhotoImage(file="123.png")
+        icon = PhotoImage(file="res/123.png")
         icon_label = tk.Label(center_frame, image=icon)
         
         
