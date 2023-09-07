@@ -11,7 +11,7 @@ import threading
 class TorrentDownloader:
     def __init__(self, root):
         self.root = root
-        icon = PhotoImage(file="123.png")
+        icon = PhotoImage(file="res/123.png")
         self.root.iconphoto(True, icon)        
         self.root.title("Torrent Downloader")
         self.root.resizable(width=False, height=False)
