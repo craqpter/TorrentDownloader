@@ -10,8 +10,11 @@ Torrent Downloader requires Python3
 ## Installation
 ```
 git clone https://github.com/craqpter/TorrentDownloader.git
+```
 cd TorrentDownloader
+```
 pip install -r requirements.txt
+```
 
 ## Usage (Windows and Linux)
 >python torrent.py
