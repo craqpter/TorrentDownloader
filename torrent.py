@@ -114,7 +114,7 @@ class TorrentDownloader:
       
     def contribute_link(self):
         messagebox.showinfo("Contribute", "Buy Me a Coffee!!!")
-        webbrowser.open_new("https://www.google.com/")
+        #webbrowser.open_new("https://www.google.com/")
         
     def select_torrent(self):
         self.file_path = filedialog.askopenfilename(filetypes=[("Torrent Files", "*.torrent")])
